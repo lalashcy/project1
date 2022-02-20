@@ -36,10 +36,16 @@
   .top-bar-wrap > .top-bar >.logo{
     width:250px;
     height:80px;
-    background-color:red;
   }
+  .top-bar-wrap > .top-bar >.logo > img{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+
   .top-bar-wrap > .top-bar > .nav-box{
     height: 80px;
+    margin-left:50px;
   }
   .top-bar-wrap > .top-bar > .nav-box > ul > li{
     color:white;
@@ -47,6 +53,15 @@
     padding-left: 10px ;
     padding-right: 10px ;
   }
+  
+  .search-box {
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
   /* top-bar-wrap 끝 */
   
   /* section2-wrap 시작 */
